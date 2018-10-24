@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Contato</title>
+  <link rel="shortcut icon" href="imagens/cabecalho1.jpg" >
+	<meta name="viewport" content="width=device=width, initial=scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/estilo.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+</head>
+<body background="fundo6.jpg">
+
+	 <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Index.html">Smart Pet Web</a>
+    </div>
+    
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Index.html">Home</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+  <div class="form-cadastro" >
+    <form action="/action_page.php">
+    <p>
+      <label for="fnome">Nome</label> 
+    </p>
+    <p>     
+      <input type="text" id="fnome" name="nome" placeholder="Digite seu nome..">
+
+    </p>
+    <p>
+       <label for="email">E-mail</label>
+    </p>
+    <p>
+       <input type="text" id="email" name="email" placeholder="Informe seu e-mail..">
+   </p>
+    <p>
+       <label for="mensagem">Mensagem</label>
+    </p>
+    <p>
+      <textarea class="form-control" rows="4" id="mensagem"></textarea>
+    </p>
+<!--<input type="submit" value="Salvar"> -->
+    <button type="submit" onclick="mensagemAlerta()">Enviar</button>
+    <p id="demo"></p>
+    <script>
+function mensagemAlerta() {
+  document.getElementById("demo").innerHTML = "Salvo com sucesso!";
+}
+</script> 
+<di id='contato'> 
+  <h4>Contato: (41) 3627-1722</h4>
+  <blockquote>
+    <p>Clinica Veterinária 24hrs</p>
+    <p>Endereço: Av. das Américas, 2451 - Nações, Fazenda Rio Grande - PR, 83820-000</p>
+  </blockquote>
+
+</div>
+  </form>
+</div>
+
+<footer>Copyright 2018 - by Larissa Tavares</footer>
+</body>
+</html>
