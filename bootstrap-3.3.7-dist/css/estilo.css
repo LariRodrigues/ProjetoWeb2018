@@ -1,0 +1,64 @@
+@charset "UTF-8"
+
+body{
+			background-size: 100%;
+			color:rgba(0,0,0,1);
+			
+		}
+
+header{
+    height: 40px;
+    background-color: white;
+}
+
+footer{
+    height: 40px;
+    background-color: white;
+}
+
+		.textosobre{
+			    text-align: justify;
+    			color: black;
+    			width: 500px;
+    			height: 200px;
+    			position: center;
+    			margin-left: 450px;
+                 border-radius: 20px;
+
+		}
+	input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: center;   
+    }
+
+button[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+ .form-cadastro {
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px; 
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
